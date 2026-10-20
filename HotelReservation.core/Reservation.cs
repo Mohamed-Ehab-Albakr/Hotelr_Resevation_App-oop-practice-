@@ -4,7 +4,25 @@ using System.Text;
 
 namespace HotelReservation.core
 {
-    internal class Reservation
+   public abstract  class Reservation
     {
+        Reservation(Customer c)
+        {
+            customer = c;
+        }
+
+
+
+        Customer customer;
+        Room room;
+        double Price;
+        DateTime Date;
+
+
+
+
+
+
+
     }
 }

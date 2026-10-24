@@ -8,7 +8,7 @@ namespace HotelReservation.core
     {
         Reservation(Customer c)
         {
-            customer = c;
+            customer = c; // refrence to the customer 
         }
 
 
